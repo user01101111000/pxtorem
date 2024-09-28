@@ -1,0 +1,93 @@
+.converter_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.converter_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.converter_header p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  user-select: none;
+}
+
+.converter_container input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.152);
+  color: white;
+}
+
+#base {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+  font-size: 1.5rem;
+  width: 1.5rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.converter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.s_icon {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.5rem;
+}
+.s {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s ease;
+}
+.s:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.converter input {
+  border: 1px solid rgba(255, 255, 255, 0.152);
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.converter p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2rem;
+  user-select: none;
+}
+
+.converter_input_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .converter {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}

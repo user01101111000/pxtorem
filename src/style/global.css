@@ -1,0 +1,65 @@
+@import url("font.css");
+
+:root {
+  font-family: "Quicksand", sans-serif;
+}
+
+@media screen and (max-width: 1440px) {
+  html {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  html {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  html {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  html {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  html {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  html {
+    font-size: 11px !important;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  html {
+    font-size: 10px !important;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  html {
+    font-size: 9px !important;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  html {
+    font-size: 8px !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 7px !important;
+  }
+}
