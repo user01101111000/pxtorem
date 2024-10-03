@@ -40,26 +40,8 @@
   }
 }
 
-@media screen and (max-width: 940px) {
-  html {
-    font-size: 10px !important;
-  }
-}
-
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 300px) {
   html {
     font-size: 9px !important;
-  }
-}
-
-@media screen and (max-width: 740px) {
-  html {
-    font-size: 8px !important;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  html {
-    font-size: 7px !important;
   }
 }
